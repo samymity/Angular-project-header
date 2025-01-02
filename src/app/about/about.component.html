@@ -1,0 +1,10 @@
+<mat-form-field appearance="outline">
+    <mat-label>Select an option</mat-label>
+    <mat-select (selectionChange)="onSelectionChange($event.value)">
+      <mat-option *ngFor="let template of templates" [value]="template.value">
+        {{ template.title }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <p *ngIf="selectedTemplate">Selected Template: {{ selectedTemplate }}</p>
