@@ -12,6 +12,9 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
+import { SmartTableComponent } from './smart-table/smart-table.component';
+import { MyTableComponentComponent } from './my-table-component/my-table-component.component';
 
 
 @NgModule({
@@ -22,14 +25,17 @@ import { MatSelectModule } from '@angular/material/select';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    SmartTableComponent,
+    MyTableComponentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    Ng2SmartTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
