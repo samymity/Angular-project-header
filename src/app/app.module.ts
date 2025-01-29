@@ -15,6 +15,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { SmartTableComponent } from './smart-table/smart-table.component';
 import { MyTableComponentComponent } from './my-table-component/my-table-component.component';
+import { Test4Component } from './my-component/test4/test4.component';
+import { Test5Component } from './my-component/test5/test5.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { MyTableComponentComponent } from './my-table-component/my-table-compone
     ContactComponent,
     FooterComponent,
     SmartTableComponent,
-    MyTableComponentComponent
+    MyTableComponentComponent,
+    Test4Component,
+    Test5Component
   ],
   imports: [
     BrowserModule,
