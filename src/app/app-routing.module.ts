@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { MyTableComponentComponent } from './my-table-component/my-table-component.component';
 import { Test5Component } from './my-component/test5/test5.component';
+import { Test6Component } from './my-component/test6/test6.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'page-3', component: ContactComponent }, // Define the route here
   { path: 'page-4', component: MyTableComponentComponent }, // Define the route here
   { path: 'page-5', component: Test5Component }, // Define the route here
+  { path: 'page-6', component: Test6Component }, // Define the route here
   // You can add more routes here
 ];
 
