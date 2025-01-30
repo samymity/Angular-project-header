@@ -17,6 +17,8 @@ import { SmartTableComponent } from './smart-table/smart-table.component';
 import { MyTableComponentComponent } from './my-table-component/my-table-component.component';
 import { Test4Component } from './my-component/test4/test4.component';
 import { Test5Component } from './my-component/test5/test5.component';
+import { ParentComponent } from './my-component/parent/parent.component';
+import { ChildComponent } from './my-component/child/child.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { Test5Component } from './my-component/test5/test5.component';
     SmartTableComponent,
     MyTableComponentComponent,
     Test4Component,
-    Test5Component
+    Test5Component,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
