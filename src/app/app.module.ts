@@ -22,6 +22,8 @@ import { ChildComponent } from './my-component/child/child.component';
 import { ConfirmDialogComponent } from './my-component/confirm-dialog/confirm-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { Test6Component } from './my-component/test6/test6.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PatientComponent } from './patient/patient.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,8 @@ import { Test6Component } from './my-component/test6/test6.component';
     ParentComponent,
     ChildComponent,
     ConfirmDialogComponent,
-    Test6Component
+    Test6Component,
+    PatientComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,8 @@ import { Test6Component } from './my-component/test6/test6.component';
     MatFormFieldModule,
     MatSelectModule,
     Ng2SmartTableModule,
-    MatDialogModule
+    MatDialogModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
